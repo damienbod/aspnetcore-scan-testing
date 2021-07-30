@@ -40,3 +40,11 @@ jobs:
           GITHUB_PULL_BASE_SHA: ${{ github.event.pull_request.base.sha }}
           GITHUB_DEFAULT_BRANCH: ${{ github.event.repository.default_branch }}
           GITGUARDIAN_API_KEY: ${{ secrets.GITGUARDIAN_API_KEY }}
+
+  gitleaks:
+    name: gitleaks scan
+    runs-on: ubuntu-latest
+    steps:
+    - uses: actions/checkout@v1
+    - name: gitleaks-action
+      uses: zricethezav/gitleaks-action@master
