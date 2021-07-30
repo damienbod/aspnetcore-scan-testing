@@ -6,8 +6,9 @@
 
 ```
 {
-  "ConnectionStrings": {
-    "DefaultConnection": "Data Source=.\\SQLEXPRESS;Initial Catalog=FilesDescriptionAzureStorage;Integrated Security=True;Connect Timeout=30;Encrypt=False;TrustServerCertificate=False;ApplicationIntent=ReadWrite;MultiSubnetFailover=False"
+   "ConnectionStrings": {
+    "DefaultConnection": "Data Source=.\\SQLEXPRESS;Initial Catalog=FilesDescriptionAzureStorage;Integrated Security=True;Connect Timeout=30;Encrypt=False;TrustServerCertificate=False;ApplicationIntent=ReadWrite;MultiSubnetFailover=False",
+    "AzureServiceBus": "Endpoint=sb://test.servicebus.windows.net/;SharedAccessKeyName=RootManageSharedAccessKey;SharedAccessKey=h1fdfdgfjnhmcvbtz65h65hn6hgeb"
   },
   "AzureAd": {
     "ClientSecret": "vvfgfhghgjw4tgrgfbgfhgfjsrt",
@@ -17,6 +18,12 @@
   },
   "ApiThree": {
     "key": "fgfgfgmr43rfef)333ffrvvdedcggfd43r43gtjnumjnb"
+  },
+  "CosmosSecrets": {
+    "PrimaryKey": "snHKwybUbSd43fvr4tbz56bUVMyYT61ssp3787v8v338rf8dd80003f3cf2ddc3r3w=="
+  },
+  "MyBotSecrets": {
+    "ApiKey": "Yp9B3$7i6epJbuUfOcgC"
   },
 }
 ```
