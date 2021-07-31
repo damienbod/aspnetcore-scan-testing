@@ -1,8 +1,20 @@
 title = "gitleaks config"
 
+
+[[rules]]
+	description = "Azure Secret"
+	regex = '''ClientSecret'''
+	tags = ["key", "Azure"]
+
+[[rules]]
+	description = "Azure Service Bus"
+	regex = '''(?i)(SharedAccessKey)=[0-9a-zA-Z-_.{}]{4,120}'''
+	tags = ["key", "Azure", "ServiceBus"]
+	
 [[rules]]
 	description = "Azure storage secret"
 	regex = '''(?i)(&sig=)=[0-9a-zA-Z-_.{}]{4,120}'''
+	tags = ["key", "Azure", "Storage"]
 
 [[rules]]
 	description = "AWS Access Key"
