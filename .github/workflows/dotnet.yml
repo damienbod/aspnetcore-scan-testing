@@ -1,4 +1,4 @@
-name: .NET
+name: .NET GitGuardian & gitleaks
 
 on:
   push:
