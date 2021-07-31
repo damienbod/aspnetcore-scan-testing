@@ -3,6 +3,11 @@ title = "gitleaks config"
 
 [[rules]]
 	description = "Azure Secret"
+	regex = '''PrimaryKey'''
+	tags = ["key", "Azure"]
+
+[[rules]]
+	description = "Azure Secret"
 	regex = '''ClientSecret'''
 	tags = ["key", "Azure"]
 
