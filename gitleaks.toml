@@ -1,6 +1,10 @@
 title = "gitleaks config"
 
 [[rules]]
+	description = "Azure storage secret"
+	regex = '''(?i)(&sig=)=[0-9a-zA-Z-_.{}]{4,120}'''
+
+[[rules]]
 	description = "AWS Access Key"
 	regex = '''(A3T[A-Z0-9]|AKIA|AGPA|AIDA|AROA|AIPA|ANPA|ANVA|ASIA)[A-Z0-9]{16}'''
 	tags = ["key", "AWS"]
