@@ -47,9 +47,10 @@ public class AzureStorageProvider
         var fileFullName = $"{storage}{fileName}";
         var blobUri = new Uri(fileFullName);
         var blobClient = new BlobClient(blobUri, _tokenAcquisitionTokenCredential);
-        return await blobClient.DownloadAsync();
 
         var blobClient2 = new BlobClient("https://damienbod.blob.core.windows.net/wow-blog?sp=r&st=2021-07-30T09:16:27Z&se=2021-07-30T17:16:27Z&spr=https&sv=2020-08-04&sr=c&sig=vV234566561B543frfrth654e2dej&9)TjPO%2B2UstoxDqN0788kd34md875WdDuPl98w23KJOs%3D", "damienbod", "fdfdf");
+
+        return await blobClient.DownloadAsync();
     }
 
     private async Task<string> PersistFileToAzureStorage(
