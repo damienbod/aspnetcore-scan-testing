@@ -4,6 +4,19 @@
 
 [![.NET](https://github.com/damienbod/aspnetcore-scan-testing/actions/workflows/dotnet-gitleaks.yml/badge.svg)](https://github.com/damienbod/aspnetcore-scan-testing/actions/workflows/dotnet-gitleaks.yml)
 
+[![Quality Gate Status](https://sonarcloud.io/api/project_badges/measure?project=damienbod_aspnetcore-scan-testing&metric=alert_status)](https://sonarcloud.io/summary/overall?id=damienbod_aspnetcore-scan-testing)
+[![Bugs](https://sonarcloud.io/api/project_badges/measure?project=damienbod_aspnetcore-scan-testing&metric=bugs)](https://sonarcloud.io/summary/overall?id=damienbod_aspnetcore-scan-testing)
+[![Code Smells](https://sonarcloud.io/api/project_badges/measure?project=damienbod_aspnetcore-scan-testing&metric=code_smells)](https://sonarcloud.io/summary/overall?id=damienbod_aspnetcore-scan-testing)
+[![Coverage](https://sonarcloud.io/api/project_badges/measure?project=damienbod_aspnetcore-scan-testing&metric=coverage)](https://sonarcloud.io/summary/overall?id=damienbod_aspnetcore-scan-testing)
+[![Duplicated Lines (%)](https://sonarcloud.io/api/project_badges/measure?project=damienbod_aspnetcore-scan-testing&metric=duplicated_lines_density)](https://sonarcloud.io/summary/overall?id=damienbod_aspnetcore-scan-testing)
+[![Lines of Code](https://sonarcloud.io/api/project_badges/measure?project=damienbod_aspnetcore-scan-testing&metric=ncloc)](https://sonarcloud.io/summary/overall?id=damienbod_aspnetcore-scan-testing)
+[![Reliability Rating](https://sonarcloud.io/api/project_badges/measure?project=damienbod_aspnetcore-scan-testing&metric=reliability_rating)](https://sonarcloud.io/summary/overall?id=damienbod_aspnetcore-scan-testing)
+[![Security Rating](https://sonarcloud.io/api/project_badges/measure?project=damienbod_aspnetcore-scan-testing&metric=security_rating)](https://sonarcloud.io/summary/overall?id=damienbod_aspnetcore-scan-testing)
+[![Technical Debt](https://sonarcloud.io/api/project_badges/measure?project=damienbod_aspnetcore-scan-testing&metric=sqale_index)](https://sonarcloud.io/summary/overall?id=damienbod_aspnetcore-scan-testing)
+[![Maintainability Rating](https://sonarcloud.io/api/project_badges/measure?project=damienbod_aspnetcore-scan-testing&metric=sqale_rating)](https://sonarcloud.io/summary/overall?id=damienbod_aspnetcore-scan-testing)
+[![Vulnerabilities](https://sonarcloud.io/api/project_badges/measure?project=damienbod_aspnetcore-scan-testing&metric=vulnerabilities)](https://sonarcloud.io/summary/overall?id=damienbod_aspnetcore-scan-testing)
+
+
 ## secrets added to the appsettings.json
 
 ```
