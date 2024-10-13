@@ -5,5 +5,7 @@ namespace AspNetCoreWithSecrets.Pages;
 public class IndexModel : PageModel
 {
     public void OnGet()
-    {}
+    {
+        // default HTTP GET
+    }
 }
