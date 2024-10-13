@@ -1,4 +1,4 @@
-﻿namespace AspNetCoreAzureStorageGroups.FilesProvider.AzureStorageAccess;
+﻿namespace AspNetCoreWithSecrets.FilesProvider.AzureStorageAccess;
 
 public class BlobFileUpload
 {

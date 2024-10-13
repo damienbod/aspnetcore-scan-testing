@@ -1,9 +1,7 @@
 ﻿@page "{handler?}"
 @using Microsoft.AspNetCore.Authorization
 @inject IAuthorizationService AuthorizationService
-@model AspNetCoreAzureStorageGroups.Pages.ListFilesModel
-@{
-}
+@model AspNetCoreWithSecrets.Pages.ListFilesModel
 
 @if ((await AuthorizationService.AuthorizeAsync(User, "StorageBlobDataReaderPolicy")).Succeeded)
 {

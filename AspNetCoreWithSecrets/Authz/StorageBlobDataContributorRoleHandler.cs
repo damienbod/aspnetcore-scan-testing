@@ -3,7 +3,7 @@ using System;
 using System.Linq;
 using System.Threading.Tasks;
 
-namespace AspNetCoreAzureStorageGroups;
+namespace AspNetCoreWithSecrets.Authz;
 
 public class StorageBlobDataContributorRoleHandler : AuthorizationHandler<StorageBlobDataContributorRoleRequirement>
 {
@@ -12,10 +12,8 @@ public class StorageBlobDataContributorRoleHandler : AuthorizationHandler<Storag
         StorageBlobDataContributorRoleRequirement requirement
     )
     {
-        if (context == null)
-            throw new ArgumentNullException(nameof(context));
-        if (requirement == null)
-            throw new ArgumentNullException(nameof(requirement));
+        ArgumentNullException.ThrowIfNull(context);
+        ArgumentNullException.ThrowIfNull(requirement);
 
         //  "6705345e-c37e-4f7a-b2d9-e2f43e029524" // StorageContributorsAzureADfiles
 

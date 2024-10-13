@@ -1,5 +1,6 @@
-using AspNetCoreAzureStorageGroups.FilesProvider.AzureStorageAccess;
-using AspNetCoreAzureStorageGroups.FilesProvider.SqlDataAccess;
+using AspNetCoreWithSecrets.Authz;
+using AspNetCoreWithSecrets.FilesProvider.AzureStorageAccess;
+using AspNetCoreWithSecrets.FilesProvider.SqlDataAccess;
 using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Builder;
 using Microsoft.AspNetCore.Hosting;
@@ -11,7 +12,7 @@ using Microsoft.Extensions.Hosting;
 using Microsoft.Identity.Web;
 using Microsoft.Identity.Web.UI;
 
-namespace AspNetCoreAzureStorageGroups;
+namespace AspNetCoreWithSecrets;
 
 public class Startup
 {

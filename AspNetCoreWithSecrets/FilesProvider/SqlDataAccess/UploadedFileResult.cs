@@ -1,7 +1,7 @@
 ﻿using System;
 using System.Collections.Generic;
 
-namespace AspNetCoreAzureStorageGroups.FilesProvider.SqlDataAccess;
+namespace AspNetCoreWithSecrets.FilesProvider.SqlDataAccess;
 
 public class UploadedFileResult
 {

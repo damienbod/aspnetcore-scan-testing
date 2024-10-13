@@ -1,4 +1,4 @@
-﻿namespace AspNetCoreAzureStorageGroups.FilesProvider.ViewModels;
+﻿namespace AspNetCoreWithSecrets.FilesProvider.ViewModels;
 
 public class FileDescriptionDto
 {

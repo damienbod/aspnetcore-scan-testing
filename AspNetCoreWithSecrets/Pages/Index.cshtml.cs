@@ -1,7 +1,7 @@
 ﻿using Microsoft.AspNetCore.Mvc.RazorPages;
 using Microsoft.Extensions.Logging;
 
-namespace AspNetCoreAzureStorageGroups.Pages;
+namespace AspNetCoreWithSecrets.Pages;
 
 public class IndexModel : PageModel
 {

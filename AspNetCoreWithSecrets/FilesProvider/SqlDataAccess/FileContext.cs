@@ -1,6 +1,6 @@
 ﻿using Microsoft.EntityFrameworkCore;
 
-namespace AspNetCoreAzureStorageGroups.FilesProvider.SqlDataAccess;
+namespace AspNetCoreWithSecrets.FilesProvider.SqlDataAccess;
 
 public class FileContext : DbContext
 {

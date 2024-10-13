@@ -8,12 +8,12 @@ using System.Collections.Generic;
 using System.Threading;
 using System.Threading.Tasks;
 
-namespace AspNetCoreAzureStorageGroups.FilesProvider.AzureStorageAccess;
+namespace AspNetCoreWithSecrets.FilesProvider.AzureStorageAccess;
 
 public class AzureStorageProvider
 {
-    private string _blobConnectionString = "https://damienbod.blob.core.windows.net/nick?sp=r&st=2021-07-30T09:16:27Z&se=2021-07-30T17:16:27Z&spr=https&sv=2020-09-04&sr=c&sig=2wde34frfr21123456zZTjPO%2B2UstoxD349vchg5078145421E75tfDKJOs%3D";
-    private string _blobKey = "sp=r&st=2021-07-30T09:16:27Z&se=2021-07-30T17:16:27Z&spr=https&sv=2020-08-04&sr=c&sig=vVK1BqcbgDUDVzZTjPO%2B2Ushfdfd33435t3899oNJEPlTQDKJOs%3D";
+    private readonly string _blobConnectionString = "https://damienbod.blob.core.windows.net/nick?sp=r&st=2021-07-30T09:16:27Z&se=2021-07-30T17:16:27Z&spr=https&sv=2020-09-04&sr=c&sig=2wde34frfr21123456zZTjPO%2B2UstoxD349vchg5078145421E75tfDKJOs%3D";
+    private readonly string _blobKey = "sp=r&st=2021-07-30T09:16:27Z&se=2021-07-30T17:16:27Z&spr=https&sv=2020-08-04&sr=c&sig=vVK1BqcbgDUDVzZTjPO%2B2Ushfdfd33435t3899oNJEPlTQDKJOs%3D";
 
     private readonly TokenAcquisitionTokenCredential _tokenAcquisitionTokenCredential;
     private readonly IConfiguration _configuration;

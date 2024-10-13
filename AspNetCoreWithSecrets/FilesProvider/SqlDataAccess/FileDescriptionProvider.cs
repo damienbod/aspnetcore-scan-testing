@@ -1,11 +1,11 @@
-﻿using AspNetCoreAzureStorageGroups.FilesProvider.ViewModels;
+﻿using AspNetCoreWithSecrets.FilesProvider.ViewModels;
 using Microsoft.Extensions.Configuration;
 using Microsoft.Extensions.Logging;
 using System.Collections.Generic;
 using System.Linq;
 using System.Threading.Tasks;
 
-namespace AspNetCoreAzureStorageGroups.FilesProvider.SqlDataAccess;
+namespace AspNetCoreWithSecrets.FilesProvider.SqlDataAccess;
 
 public class FileDescriptionProvider
 {
