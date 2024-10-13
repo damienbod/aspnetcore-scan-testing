@@ -1,5 +1,3 @@
-using System.Collections.Generic;
-using System.Threading.Tasks;
 using AspNetCoreAzureStorageGroups.FilesProvider.AzureStorageAccess;
 using AspNetCoreAzureStorageGroups.FilesProvider.SqlDataAccess;
 using AspNetCoreAzureStorageGroups.FilesProvider.ViewModels;
@@ -7,6 +5,8 @@ using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.AspNetCore.Mvc.RazorPages;
 using Microsoft.Identity.Web;
+using System.Collections.Generic;
+using System.Threading.Tasks;
 
 namespace AspNetCoreAzureStorageGroups.Pages;
 
