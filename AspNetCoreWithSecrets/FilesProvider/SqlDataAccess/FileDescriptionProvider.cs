@@ -11,8 +11,6 @@ public class FileDescriptionProvider
 {
 
     private readonly FileContext _context;
-
-    private readonly ILogger _logger;
     private readonly IConfiguration _configuration;
 
     public FileDescriptionProvider(FileContext context,
@@ -20,7 +18,6 @@ public class FileDescriptionProvider
         IConfiguration configuration)
     {
         _context = context;
-        _logger = loggerFactory.CreateLogger("FileRepository");
         _configuration = configuration;
     }
 
@@ -59,8 +56,6 @@ public class FileDescriptionProvider
         }
 
         await _context.SaveChangesAsync();
-
     }
-
 }
 
