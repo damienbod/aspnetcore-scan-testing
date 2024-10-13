@@ -9,9 +9,9 @@ public class FileContext : DbContext
 
     public DbSet<FileDescription> FileDescriptions { get; set; }
 
-    protected override void OnModelCreating(ModelBuilder builder)
+    protected override void OnModelCreating(ModelBuilder modelBuilder)
     {
-        builder.Entity<FileDescription>().HasKey(m => m.Id);
-        base.OnModelCreating(builder);
+        modelBuilder.Entity<FileDescription>().HasKey(m => m.Id);
+        base.OnModelCreating(modelBuilder);
     }
 }
