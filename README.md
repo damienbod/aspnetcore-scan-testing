@@ -1,8 +1,6 @@
 # aspnetcore-scan-testing
 
-[![.NET](https://github.com/damienbod/aspnetcore-scan-testing/actions/workflows/dotnet-gitguardian.yml/badge.svg)](https://github.com/damienbod/aspnetcore-scan-testing/actions/workflows/dotnet-gitguardian.yml)
-
-[![.NET](https://github.com/damienbod/aspnetcore-scan-testing/actions/workflows/dotnet-gitleaks.yml/badge.svg)](https://github.com/damienbod/aspnetcore-scan-testing/actions/workflows/dotnet-gitleaks.yml)
+## Sonarcloud
 
 [![Quality Gate Status](https://sonarcloud.io/api/project_badges/measure?project=damienbod_aspnetcore-scan-testing&metric=alert_status)](https://sonarcloud.io/summary/overall?id=damienbod_aspnetcore-scan-testing)
 [![Bugs](https://sonarcloud.io/api/project_badges/measure?project=damienbod_aspnetcore-scan-testing&metric=bugs)](https://sonarcloud.io/summary/overall?id=damienbod_aspnetcore-scan-testing)
@@ -16,6 +14,11 @@
 [![Maintainability Rating](https://sonarcloud.io/api/project_badges/measure?project=damienbod_aspnetcore-scan-testing&metric=sqale_rating)](https://sonarcloud.io/summary/overall?id=damienbod_aspnetcore-scan-testing)
 [![Vulnerabilities](https://sonarcloud.io/api/project_badges/measure?project=damienbod_aspnetcore-scan-testing&metric=vulnerabilities)](https://sonarcloud.io/summary/overall?id=damienbod_aspnetcore-scan-testing)
 
+## other scans
+
+[![.NET](https://github.com/damienbod/aspnetcore-scan-testing/actions/workflows/dotnet-gitguardian.yml/badge.svg)](https://github.com/damienbod/aspnetcore-scan-testing/actions/workflows/dotnet-gitguardian.yml)
+
+[![.NET](https://github.com/damienbod/aspnetcore-scan-testing/actions/workflows/dotnet-gitleaks.yml/badge.svg)](https://github.com/damienbod/aspnetcore-scan-testing/actions/workflows/dotnet-gitleaks.yml)
 
 ## secrets added to the appsettings.json
 
@@ -55,6 +58,10 @@ var blobClient2 = new BlobClient("https://damienbod.blob.core.windows.net/wow-bl
 ```
 
 ## Links
+
+https://docs.sonarsource.com/sonarcloud/getting-started/github/
+
+https://github.com/rufer7/github-sonarcloud-integration
 
 https://github.com/GitGuardian/ggshield
 
