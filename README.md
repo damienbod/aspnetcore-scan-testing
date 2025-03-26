@@ -1,6 +1,6 @@
 # aspnetcore scan testing
 
-## Sonarcloud
+## SonarQube Cloud
 
 [![Quality Gate Status](https://sonarcloud.io/api/project_badges/measure?project=damienbod_aspnetcore-scan-testing&metric=alert_status)](https://sonarcloud.io/summary/overall?id=damienbod_aspnetcore-scan-testing)
 [![Bugs](https://sonarcloud.io/api/project_badges/measure?project=damienbod_aspnetcore-scan-testing&metric=bugs)](https://sonarcloud.io/summary/overall?id=damienbod_aspnetcore-scan-testing)
