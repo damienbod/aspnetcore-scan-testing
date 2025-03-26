@@ -1,4 +1,4 @@
-# aspnetcore-scan-testing
+# aspnetcore scan testing
 
 ## Sonarcloud
 
