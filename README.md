@@ -43,6 +43,9 @@
   "MyBotSecrets": {
     "ApiKey": "Yp9B3$7i6epJbuUfOcgC"
   },
+  "SecretMatchingGitHubPatternExactly": {
+    "azure_apim_gateway_key": "abc123"
+  }
 }
 ```
 
