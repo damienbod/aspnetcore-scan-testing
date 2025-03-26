@@ -7,6 +7,7 @@ public class Program
 {
     public static void Main(string[] args)
     {
+        var personalaccesstoken = "abceriosndf";
         CreateHostBuilder(args).Build().Run();
     }
 
